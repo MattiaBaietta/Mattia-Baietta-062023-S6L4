@@ -1,0 +1,50 @@
+$success:rgb(62, 206, 139);
+$warning:#754FFE;
+$secondary:rgb(153, 151, 151);
+$danger:rgb(250, 204, 212);
+@import "bootstrap-5.3.2/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+nav{
+    li{
+        font-weight: bold;
+    }
+}
+
+/*fs-1 da cambiare in + grande SOCIO*/      
+
+body{
+    font-family:'Inter', sans-serif;
+    
+}
+
+.sezione2 p{
+    margin: 5px;
+}
+.sezione p{
+    margin: 0px;
+    padding-left: 5px;
+}
+section{
+    background-color: rgb(240, 237, 237);
+}
+
+.widthdefinita{
+    width: 25px;
+    height: auto;
+}
+footer{
+    background-color: rgb(240, 237, 237);
+
+}
+h4{
+    font-size: 1em;
+    font-weight: bold;
+}
+@media screen and (min-width:1200px) {
+
+    .sezioneflex{
+        display: flex;
+        
+    }
+}
