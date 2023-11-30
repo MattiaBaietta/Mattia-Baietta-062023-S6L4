@@ -12017,4 +12017,8 @@ h4, .h4 {
   .sezioneflex {
     display: flex;
   }
+  .diviniziale {
+    display: flex;
+    align-items: center;
+  }
 }/*# sourceMappingURL=main.css.map */
